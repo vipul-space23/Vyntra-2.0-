@@ -53,6 +53,6 @@ npm start
 ![Listening GIF](https://github.com/vipul-space23/Vyntra-2.0-/blob/cd8cd2b200438b482ffc32c6f22f782b44ef5a30/image.png)
 
 ### 🤖 Responding to User
-![AI Reply](https://user-images.githubusercontent.com/.../aiVoice.gif)
+![AI Reply]([https://user-images.githubusercontent.com/.../aiVoice.gif](https://github.com/vipul-space23/Vyntra-2.0-/blob/3541f78eab8d8873d77774ef675f129662cfcaed/image.png))
 
 
