@@ -1,0 +1,129 @@
+/* .main {
+  width: 100;
+  height: 100;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#vyntra {
+  height: 650px;
+  width: 35p;
+  object-fit: contain;
+}
+
+span {
+  background: linear-gradient(to right, rgb(34, 221, 231), rgb(237, 4, 125));
+  font-size: 2vmax;
+  background-clip: text;
+  color: transparent;
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(79, 224, 234);
+  box-shadow: 2px 2px 100px rgba(79, 224, 234);
+}
+#speak{
+  width: 100px;
+}
+p{
+  font-size: 1.2vmax;
+  color:white
+}
+.response{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#aigif{
+  width:120px;                               height: auto;
+} */
+ /* styles.css - No changes needed here based on the request */
+.main {
+  width: 100%; /* Use percentage for responsiveness */
+  min-height: 100vh; /* Use viewport height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px; /* Add some padding */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+#vyntra {
+  height: auto; /* Maintain aspect ratio */
+  width: 90%; /* Responsive width */
+  max-width: 350px; /* Max width */
+  object-fit: contain;
+}
+
+span {
+  background: linear-gradient(to right, rgb(34, 221, 231), rgb(237, 4, 125));
+  font-size: 2vmax;
+  background-clip: text;
+  -webkit-background-clip: text; /* Add vendor prefix */
+  color: transparent;
+  text-align: center; /* Center text if it wraps */
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Reduced gap slightly */
+  font-size: 18px; /* Slightly smaller font */
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(79, 224, 234);
+  box-shadow: 0 4px 15px rgba(79, 224, 234, 0.5); /* Adjusted shadow */
+  color: black; /* Added text color for better visibility */
+  cursor: pointer; /* Add pointer cursor */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+button:hover {
+    background-color: rgb(60, 200, 210);
+    box-shadow: 0 6px 20px rgba(79, 224, 234, 0.7);
+}
+
+
+#speak{
+  width: 100px;
+  height: auto; /* Maintain aspect ratio */
+}
+p{
+  font-size: 1.2vmax;
+  color:white;
+  text-align: center; /* Center text */
+  max-width: 80%; /* Prevent text from becoming too wide */
+}
+.response{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#aigif{
+  width:300px;
+  height:auto; /* Maintain aspect ratio */
+}
